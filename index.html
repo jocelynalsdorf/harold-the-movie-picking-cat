@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Harold the Movie Picker Cat</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato|Oleo+Script|Schoolbell' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.min.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="apps/main.js"></script>
+</head>
+<body> 
+<div class="main-wrapper">  
+
+
+		<div class="section group top">
+	     	
+		  	<div class="intro col span_4_of_4">
+			<h1>Harold the Movie Picking Cat</h1>
+			
+		  	</div>
+		
+		</div>
+	<div class="section group below-top">
+	     	
+		  	<div class="intro col span_4_of_4">
+			<p class="let">Let Harold find you some movies to watch.</p>
+		  	</div>
+		
+		</div>
+
+
+	<div class="section group main-content">
+		<div class="cat col span_2_of_4">
+		   <img src="images/harold.jpeg" alt="cat"/>
+		</div>
+	<div class="form-area col span_2_of_4">
+	
+	<div class="form-container">
+	<form class="user-info" class="user-info">
+		<div class="form-description">
+			<h2>Step 1</h2>
+			<p></p>
+		</div>						
+	<ul >	
+	 <li id="li_1" >
+		<label class="description">Tell Harold what year you were born </label>
+		<div class="year-inputs">
+			<input id="year-element" name="element_1" placeholder="Use YYYY format" class="year-element" type="text" maxlength="30"/> 
+		</div>
+	 </li>		
+	 <li id="li_2" >
+		<label class="description">Tell Harold which animal you like better</label>
+		<div class="favorite">
+		   <input id="element-cat" name="element-radio" class="element radio" type="radio" value="1" />
+        <label class="choice">Cats</label>
+		   <input id="element-dog" name="element-radio" class="element radio" type="radio" value="2" />
+		<label class="choice">Dogs</label></div>
+	 </li>
+	 <li class="buttons">
+			<input id="submitform" class="submitbtn" type="submit" name="submit" value=" Submit " /></form>
+		</li>
+	<li class="buttons"><form class="userreset"><input id="resetform" class="resetbtn" type="submit" name="			reset" value="New list" /><form>
+	    </li>
+	</ul>
+		
+		</div>
+	  <div class="hidden-holder">
+			<h2>Step 2</h2>
+		<div class="templates">
+		<dl class="result movie-list">
+			<dt>Here are Harold's Suggestions: </dt>
+				<dd class="movie-title"></dd>
+			<dt></dt>
+				<dd class="average-rating"></dd>
+			
+		</dl>
+		<div class="error hidden">
+			<p>Uh-oh! Something went wrong with your request. Harold thinks the problem is:</p>
+		</div>
+
+	  </div>
+	
+	</div>
+	</div>
+	<div class="section group bottom">
+	 	 <div class="col span_4_of_4">
+		<ul class="footer-icons">
+			<li class="down"><a href="https://github.com/jocelynalsdorf"><i class="fa fa-github-alt"></i></a></li>
+			<li class="down"><a href="http://codepen.io/Joss_Alsdorf/public/"><i class="fa fa-codepen"></i></li>
+			<li class="down"><a href="https://twitter.com/jocelynalsdorf"><i class="fa fa-twitter"></i></a></li>
+		</ul>
+		<ul class="footer-logo">
+			<li class="down">Another site by: </li>
+			<li><img src="images/smalljossmonster.png" alt="jossmonsterlogo"/></li>
+		</ul>
+	  	</div>
+	</div>
+
+	
+</div>
+</body>
+</html>
